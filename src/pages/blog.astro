@@ -6,7 +6,7 @@ import Layout from "../layouts/Layout.astro";
 const posts = await Astro.glob('../posts/*.md')
 ---
 
-<Layout>
+<Layout title="Astro | Blogs">
   <Showcase heading="Astro Blog" text="A simple blog built with Astro"/>
   <section class="page-content">
     <div class="container">
@@ -20,3 +20,5 @@ const posts = await Astro.glob('../posts/*.md')
     </div>
   </section>
 </Layout>
+
+
